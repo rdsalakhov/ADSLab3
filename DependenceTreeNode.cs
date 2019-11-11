@@ -2,6 +2,6 @@ namespace ScheduleTask2
 {
     public class DependenceTreeNode
     {
-        public 
+        public int hui = 1;
     }
 }
