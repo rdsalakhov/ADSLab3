@@ -4,19 +4,19 @@ namespace ScheduleTask2
 {
     public class DependenceTree
     {
-        public DependenceTreeNode Root { get; }
+        public Job Root { get; }
 
-        private List<DependenceTreeNode> _nodes;
+        public List<Job> Jobs { get; }
 
-        public DependenceTree(List<DependenceTreeNode> nodes, DependenceTreeNode root)
+        public DependenceTree(List<Job> jobs, Job root)
         {
-            this._nodes = nodes;
+            this.Jobs = jobs;
             this.Root = root;
         }
 
         public void SetPriorities()
         {
-            Queue<DependenceTreeNode> q = new Queue<DependenceTreeNode>();
+            Queue<Job> q = new Queue<Job>();
             
             if (Root == null)
             {
@@ -35,7 +35,7 @@ namespace ScheduleTask2
                 
                 while (nodeCount > 0)
                 {
-                    DependenceTreeNode newnode = q.Peek();
+                    Job newnode = q.Peek();
                     newnode.Priority = priorityIndex;
                     priorityIndex++;
                     q.Dequeue();

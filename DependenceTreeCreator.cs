@@ -8,40 +8,41 @@ namespace ScheduleTask2
         public static DependenceTree CreateFromDependenceDictionary(Dictionary<char, char> dictionary, int jobCount)
         {
             
-            var nodes = CreateListOfNodes(jobCount);
+            var jobNodes = CreateListOfJobs(jobCount);
 
             foreach (var dependence in dictionary)
             {
-                var receiver = (from node in nodes
-                    where node.Job.Name == dependence.Value
-                    select node).First();
-                var giver = (from node in nodes
-                    where node.Job.Name == dependence.Key
-                    select node).First();
+                var receiver = (from jobNode in jobNodes
+                    where jobNode.Name == dependence.Value
+                    select jobNode).First();
+                    
+                var giver = (from jobNode in jobNodes
+                    where jobNode.Name == dependence.Key
+                    select jobNode).First();
                 giver.OutDependence = receiver;
                 receiver.InDependeces.Add(giver);
             }
 
-            var root = FindRoot(nodes[0]); 
-            return new DependenceTree(nodes, root);
+            var root = FindRoot(jobNodes[0]); 
+            return new DependenceTree(jobNodes, root);
         }
 
-        private static DependenceTreeNode FindRoot(DependenceTreeNode node)
+        private static Job FindRoot(Job jobNode)
         {
-            while (node.OutDependence != null)
+            while (jobNode.OutDependence != null)
             {
-                node = node.OutDependence;
+                jobNode = jobNode.OutDependence;
             }
 
-            return node;
+            return jobNode;
         }
         
-        private static List<DependenceTreeNode> CreateListOfNodes(int jobCount)
+        private static List<Job> CreateListOfJobs(int jobCount)
         {
-            var list = new List<DependenceTreeNode>();
+            var list = new List<Job>();
             for (int i = 0; i < jobCount; i++)
             {
-                list.Add(new DependenceTreeNode(new Job()));
+                list.Add(new Job());
             }
 
             return list;

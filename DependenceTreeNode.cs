@@ -2,6 +2,7 @@ using System.Collections.Generic;
 
 namespace ScheduleTask2
 {
+    // legasy
     public class DependenceTreeNode
     {
         public Job Job { get; }
