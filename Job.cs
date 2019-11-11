@@ -27,5 +27,10 @@ namespace ScheduleTask2
             Priority = -1;
             jobNamer++;
         }
+
+        public override string ToString()
+        {
+            return Name.ToString();
+        }
     }
 }
