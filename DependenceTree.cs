@@ -14,6 +14,38 @@ namespace ScheduleTask2
             this.Root = root;
         }
 
-        
+        public void SetPriorities()
+        {
+            Queue<DependenceTreeNode> q = new Queue<DependenceTreeNode>();
+            
+            if (Root == null)
+            {
+                return;
+            }
+            q.Enqueue(Root);
+
+            int priorityIndex = 0;
+            while (true)
+            {
+                int nodeCount = q.Count;
+                if (nodeCount == 0)
+                {
+                    return;
+                }
+                
+                while (nodeCount > 0)
+                {
+                    DependenceTreeNode newnode = q.Peek();
+                    newnode.Priority = priorityIndex;
+                    priorityIndex++;
+                    q.Dequeue();
+                    foreach (var dependentNode in newnode.InDependeces)
+                    {
+                        q.Enqueue(dependentNode);
+                    }
+                    nodeCount--;
+                }
+            }
+        }
     }
 }
