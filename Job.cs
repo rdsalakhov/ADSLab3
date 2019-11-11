@@ -4,7 +4,7 @@ namespace ScheduleTask2
 {
     public class Job
     {
-        private char jobNamer = 'A';
+        private static char jobNamer = 'A';
 
         public char Name { get; }
 
