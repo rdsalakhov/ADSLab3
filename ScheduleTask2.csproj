@@ -41,6 +41,7 @@
     <Compile Include="DependenceTree.cs" />
     <Compile Include="DependenceTreeCreator.cs" />
     <Compile Include="DependenceTreeNode.cs" />
+    <Compile Include="GanttChart.cs" />
     <Compile Include="Job.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
