@@ -5,7 +5,7 @@ namespace ScheduleTask2
 {
     public static class DependenceTreeCreator
     {
-        static DependenceTree CreateFromDependenceDictionary(Dictionary<char, char> dictionary, int jobCount)
+        public static DependenceTree CreateFromDependenceDictionary(Dictionary<char, char> dictionary, int jobCount)
         {
             
             var nodes = CreateListOfNodes(jobCount);
