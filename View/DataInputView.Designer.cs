@@ -180,7 +180,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "DataInputView";
-            this.Text = "Data input view";
+            this.Text = "н";
             this.ResumeLayout(false);
             this.PerformLayout();
 
