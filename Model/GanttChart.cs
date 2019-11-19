@@ -11,6 +11,10 @@ namespace ScheduleTask2
 
         public GanttChart(int workersCount)
         {
+            if (workersCount <= 0)
+            {
+                throw new InvalidWorkersCountException("Number of workers was 0 or less", workersCount);
+            }
             this.WorkersCount = workersCount;
             Chart = new List<List<Job>>();
             for (int i = 0; i < workersCount; i++)

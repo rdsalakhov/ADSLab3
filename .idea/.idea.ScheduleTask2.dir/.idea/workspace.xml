@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15544f5a-328e-4d49-af5c-de1f59635cee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/ScheduleTask2/v14/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/app.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Form1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Form1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Form1.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Properties/Settings.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Properties/Settings.settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/View.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Model/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependenceTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DependenceTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependenceTreeCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DependenceTreeCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependenceTreeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DependenceTreeNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GanttChart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/GanttChart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Job.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScheduleTask2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Model.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="15544f5a-328e-4d49-af5c-de1f59635cee" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +17,6 @@
               <caret line="409" column="6" selection-start-line="409" selection-start-column="6" selection-end-line="409" selection-end-column="6" />
               <folding>
                 <marker date="1557752225731" expanded="true" signature="0:301" ph="/* Decompiled with JetBrains decompiler ... */" />
-                <marker date="1557752225731" expanded="false" signature="309:482" ph="..." />
                 <marker date="1557752225731" expanded="true" signature="500:27259" ph="{...}" />
                 <marker date="1557752225731" expanded="true" signature="559:27257" ph="{...}" />
                 <marker date="1557752225731" expanded="true" signature="643:718" ph="{...}" />
@@ -144,7 +115,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7505D9A2-1CFC-4FC7-B41C-B4768918FDB4/fb/5800136b/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Library/Preferences/Rider2018.3/resharper-host/DecompilerCache/decompiler/98FAC219-BD4E-4536-93D7-6FDA7BD96AB0/e4/97726ac0/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ADSWeek7/Remove/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -161,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -170,11 +140,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +193,7 @@
       <updated>1573456327371</updated>
       <workItem from="1573456330489" duration="15331000" />
       <workItem from="1573621317687" duration="913000" />
+      <workItem from="1574186601626" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="Another test commmit">
       <created>1573456437755</created>
@@ -312,7 +283,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16244000" />
+    <option name="totallyTimeSpent" value="16286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +297,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,55 +364,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DependenceTreeNode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DependenceTree.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DependenceTreeCreator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Job.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GanttChart.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DependenceTreeNode.cs" />
+    <entry file="file://$PROJECT_DIR$/DependenceTree.cs" />
+    <entry file="file://$PROJECT_DIR$/DependenceTreeCreator.cs" />
+    <entry file="file://$PROJECT_DIR$/Job.cs" />
+    <entry file="file://$PROJECT_DIR$/GanttChart.cs" />
+    <entry file="file://$PROJECT_DIR$/Program.cs" />
     <entry file="file://$USER_HOME$/Library/Preferences/Rider2018.3/resharper-host/DecompilerCache/decompiler/98FAC219-BD4E-4536-93D7-6FDA7BD96AB0/e4/97726ac0/ThrowHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="409" column="6" selection-start-line="409" selection-start-column="6" selection-end-line="409" selection-end-column="6" />
           <folding>
             <marker date="1557752225731" expanded="true" signature="0:301" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1557752225731" expanded="false" signature="309:482" ph="..." />
             <marker date="1557752225731" expanded="true" signature="500:27259" ph="{...}" />
             <marker date="1557752225731" expanded="true" signature="559:27257" ph="{...}" />
             <marker date="1557752225731" expanded="true" signature="643:718" ph="{...}" />
