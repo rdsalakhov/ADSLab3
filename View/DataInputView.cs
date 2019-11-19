@@ -123,17 +123,45 @@ namespace View
         private void ComputeWithData(int numberOfEmployees, int numberOfJobs, List<Tuple<char, char>> dependecies)
         {
             /// ----- CREATING A CHART IN MODEL ------
+            /// 
             var dict = DependenceTreeCreator.ConvertListToDict(dependecies);
-            var tree = DependenceTreeCreator.CreateFromDependenceDictionary(dict, numberOfJobs);
-            tree.SetPriorities();
-            var chart = new GanttChart(numberOfEmployees);
-            chart.Fill(tree);
-
-
+            GanttChart chart = null;
+            try
+            {
+                var tree = DependenceTreeCreator.CreateFromDependenceDictionary(dict, numberOfJobs);
+                tree.SetPriorities();
+                chart = new GanttChart(numberOfEmployees);
+                chart.Fill(tree);
+            }
+            catch (InvalidDependenciesCountException e)
+            {
+                MessageBox.Show("Error: " + e.Message);
+                return;
+            }
+            catch (InvalidJobCountException e)
+            {
+                MessageBox.Show("Error: " + e.Message);
+                return;
+            }
+            catch (InvalidWorkersCountException e)
+            {
+                MessageBox.Show("Error: " + e.Message);
+                return;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Something bad happened. Try again!");
+                return;
+            }
             GanttChartView ganttChartView = new GanttChartView();
             ganttChartView.Show();
             ganttChartView.ShowDataOnChart(chart.Chart);
-           
+        }
+
+        private void ClearListButton_Click(object sender, EventArgs e)
+        {
+            dependensies.Clear();
+            UpdateDependencyList();
         }
     }
 }

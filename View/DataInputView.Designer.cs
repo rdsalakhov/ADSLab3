@@ -40,6 +40,7 @@
             this.removeDependencyButton = new System.Windows.Forms.Button();
             this.computeButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.ClearListButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -133,7 +134,7 @@
             // removeDependencyButton
             // 
             this.removeDependencyButton.Font = new System.Drawing.Font("Arial", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.removeDependencyButton.Location = new System.Drawing.Point(523, 653);
+            this.removeDependencyButton.Location = new System.Drawing.Point(523, 601);
             this.removeDependencyButton.Name = "removeDependencyButton";
             this.removeDependencyButton.Size = new System.Drawing.Size(259, 103);
             this.removeDependencyButton.TabIndex = 9;
@@ -162,11 +163,23 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Input dependency:";
             // 
+            // ClearListButton
+            // 
+            this.ClearListButton.Font = new System.Drawing.Font("Arial", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClearListButton.Location = new System.Drawing.Point(523, 728);
+            this.ClearListButton.Name = "ClearListButton";
+            this.ClearListButton.Size = new System.Drawing.Size(259, 103);
+            this.ClearListButton.TabIndex = 12;
+            this.ClearListButton.Text = "Clear list";
+            this.ClearListButton.UseVisualStyleBackColor = true;
+            this.ClearListButton.Click += new System.EventHandler(this.ClearListButton_Click);
+            // 
             // DataInputView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 1047);
+            this.Controls.Add(this.ClearListButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.computeButton);
             this.Controls.Add(this.removeDependencyButton);
@@ -200,6 +213,7 @@
         private System.Windows.Forms.Button removeDependencyButton;
         private System.Windows.Forms.Button computeButton;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button ClearListButton;
     }
 }
 
