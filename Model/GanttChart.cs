@@ -18,51 +18,69 @@ namespace ScheduleTask2
                 Chart.Add(new List<Job>());
             }
         }    
-
+        
         public void Fill(DependenceTree dependenceTree)
         {
-            var nodes = (from node in dependenceTree.Jobs
-                orderby node.Priority descending 
-                select node).ToList();
+            var jobs = (from job in dependenceTree.Jobs
+                orderby job.Priority descending 
+                select job).ToList();
 
             int currentWorkerIndex = 0;
-            for (int i = 0; i < nodes.Count(); i++)
+            int workerIndexShift = 0;
+
+            bool isReady;
+            foreach (var job in jobs)
             {
-                
-                if (currentWorkerIndex == WorkersCount)
+                if (currentWorkerIndex == Chart.Count)
                 {
-                    currentWorkerIndex = 0;
+                    currentWorkerIndex = workerIndexShift;
+                    workerIndexShift = 0;
                 }
-                
-                
-                if (currentWorkerIndex != 0)
+                isReady = CheckJob(job, currentWorkerIndex, Chart[currentWorkerIndex].Count);
+                if (!isReady)
                 {
-                    bool isReady = true;
-                    for (int workerIndex = 0; workerIndex < currentWorkerIndex; workerIndex++)
+                    var oldWorkerIndex = currentWorkerIndex;
+
+                    var ascendingWorkers = from worker in Chart
+                                           orderby worker.Count ascending
+                                           select worker;
+
+                    foreach (var worker in ascendingWorkers)
                     {
-                        if (Chart[workerIndex].Count != 0 && Chart[workerIndex].Last().OutDependence == nodes[i])
+                        currentWorkerIndex = Chart.FindIndex(x => x == worker);
+                        if (CheckJob(job, currentWorkerIndex, Chart[currentWorkerIndex].Count))
                         {
-                            isReady = false;
+                            Chart[currentWorkerIndex].Add(job);
                             break;
                         }
                     }
 
-                    if (isReady)
-                    {
-                        Chart[currentWorkerIndex].Add(nodes[i]);
-                        currentWorkerIndex++;
-                    }
-                    else
-                    {
-                        Chart[0].Add(nodes[i]);
-                    }
+                    workerIndexShift = currentWorkerIndex + 1;
+                    currentWorkerIndex = oldWorkerIndex;
                 }
                 else
                 {
-                    Chart[currentWorkerIndex].Add(nodes[i]);
+                    Chart[currentWorkerIndex].Add(job);
                     currentWorkerIndex++;
                 }
-               }
+            }
+        }
+
+        private bool CheckJob(Job job, int suggestedWorkerIndex, int suggestedJobIndex)
+        {
+            for (int i = 0; i < suggestedWorkerIndex; i++)
+            {
+                var worker = Chart[i];
+                for (int j = suggestedJobIndex; j < worker.Count; j++)
+                {
+                    if (worker[j].OutDependence == job)
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
         }
     }
 }
