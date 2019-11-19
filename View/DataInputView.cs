@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ScheduleTask2;
 
 namespace View
 {
@@ -100,7 +101,12 @@ namespace View
 
         private void computeButton_Click(object sender, EventArgs e)
         {
-            int numberOfEmployees;
+            int numberOfEmployees, numberOfJobs;
+            if (!int.TryParse(tasksNumberTextField.Text, out numberOfJobs))
+            {
+                MessageBox.Show($"Unable to convert {tasksNumberTextField.Text} to integer for NUMBER OF EMPLOYEES. Try again!");
+                return;
+            }
             if (!int.TryParse(empNumberTextField.Text, out numberOfEmployees))
             {
                 MessageBox.Show($"Unable to convert {empNumberTextField.Text} to integer for NUMBER OF EMPLOYEES. Try again!");
@@ -111,17 +117,23 @@ namespace View
                 MessageBox.Show("There are no dependencies in the list");
                 return;
             }
-            ComputeWithData(numberOfEmployees, dependensies);
+            ComputeWithData(numberOfEmployees, numberOfJobs, dependensies);
         }
 
-        private void ComputeWithData(int numberOfEmployees, List<Tuple<char, char>> dependecies)
+        private void ComputeWithData(int numberOfEmployees, int numberOfJobs, List<Tuple<char, char>> dependecies)
         {
-            Console.WriteLine("Data is sent!");
-            Console.WriteLine($"Number of workers - {numberOfEmployees}");
-            foreach(var dependecy in dependecies)
-            {
-                Console.WriteLine(dependecy.Item1.ToString() + " " + dependecy.Item2.ToString());
-            }
+            /// ----- CREATING A CHART IN MODEL ------
+            var dict = DependenceTreeCreator.ConvertListToDict(dependecies);
+            var tree = DependenceTreeCreator.CreateFromDependenceDictionary(dict, numberOfJobs);
+            tree.SetPriorities();
+            var chart = new GanttChart(numberOfEmployees);
+            chart.Fill(tree);
+
+
+            GanttChartView ganttChartView = new GanttChartView();
+            ganttChartView.Show();
+            ganttChartView.ShowDataOnChart(chart.Chart);
+           
         }
     }
 }
