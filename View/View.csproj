@@ -52,10 +52,19 @@
     <Compile Include="DataInputView.Designer.cs">
       <DependentUpon>DataInputView.cs</DependentUpon>
     </Compile>
+    <Compile Include="GanttChartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GanttChartView.Designer.cs">
+      <DependentUpon>GanttChartView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DataInputView.resx">
       <DependentUpon>DataInputView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GanttChartView.resx">
+      <DependentUpon>GanttChartView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +87,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{3371edab-d11a-4dd8-aa3e-aa6fbd60af46}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

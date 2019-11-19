@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -46,6 +47,18 @@ namespace ScheduleTask2
             }
 
             return list;
+        }
+
+        public static Dictionary<char, char> ConvertListToDict(List<Tuple<char, char>> list)
+        {
+            var dict = new Dictionary<char, char>();
+            
+            foreach(var listItem in list)
+            {
+                dict.Add(listItem.Item1, listItem.Item2);
+            }
+
+            return dict;
         }
     }
 }
