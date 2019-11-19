@@ -1,0 +1,9 @@
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\bin\Debug\View.exe.config
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\bin\Debug\View.exe
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\bin\Debug\View.pdb
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.DataInputView.resources
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.exe
+C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.pdb
