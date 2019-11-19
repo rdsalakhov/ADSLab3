@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -7,7 +8,15 @@ namespace ScheduleTask2
     {
         public static DependenceTree CreateFromDependenceDictionary(Dictionary<char, char> dictionary, int jobCount)
         {
-            
+            if (jobCount <= 0)
+            {
+                throw new InvalidJobCountException("Number of jobs was 0 or less", jobCount);
+            }
+
+            if (jobCount != dictionary.Count - 1)
+            {
+                throw new InvalidDependenciesCountException("N jobs should have N - 1 dependencies", jobCount, dictionary.Count);
+            }
             var jobNodes = CreateListOfJobs(jobCount);
 
             foreach (var dependence in dictionary)
