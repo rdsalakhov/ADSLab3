@@ -7,3 +7,12 @@ C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.Properties.Res
 C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.csproj.GenerateResource.cache
 C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.exe
 C:\Users\arsenyneustroev\source\repos\ADSLab3\View\obj\Debug\View.pdb
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\bin\Debug\View.exe.config
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\bin\Debug\View.exe
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\bin\Debug\View.pdb
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\obj\Debug\View.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\obj\Debug\View.DataInputView.resources
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\obj\Debug\View.Properties.Resources.resources
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\obj\Debug\View.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\obj\Debug\View.exe
+\\Mac\Home\Desktop\projects\2019-2020\C#\ADSLab3\View\obj\Debug\View.pdb

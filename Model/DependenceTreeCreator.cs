@@ -13,7 +13,7 @@ namespace ScheduleTask2
                 throw new InvalidJobCountException("Number of jobs was 0 or less", jobCount);
             }
 
-            if (jobCount != dictionary.Count - 1)
+            if (jobCount - 1!= dictionary.Count)
             {
                 throw new InvalidDependenciesCountException("N jobs should have N - 1 dependencies", jobCount, dictionary.Count);
             }
