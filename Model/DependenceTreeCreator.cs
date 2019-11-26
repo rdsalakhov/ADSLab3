@@ -48,6 +48,7 @@ namespace ScheduleTask2
         
         private static List<Job> CreateListOfJobs(int jobCount)
         {
+            Job.ResetJobNames();
             var list = new List<Job>();
             for (int i = 0; i < jobCount; i++)
             {

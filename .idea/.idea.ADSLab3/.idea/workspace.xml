@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="77632089-bd7a-4497-8e9c-94532072f60f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.vs/ADSLab3/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ADSLab3/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/bin/Debug/ScheduleTask2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/View/bin/Debug/ScheduleTask2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/bin/Debug/ScheduleTask2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/View/bin/Debug/ScheduleTask2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/bin/Debug/View.exe" beforeDir="false" afterPath="$PROJECT_DIR$/View/bin/Debug/View.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/bin/Debug/View.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/View/bin/Debug/View.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/View/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
@@ -43,15 +46,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="150">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <marker date="1574178106269" expanded="false" signature="6:50" ph="..." />
-                <marker date="1574178106269" expanded="true" signature="75:1040" ph="{...}" />
-                <marker date="1574178106269" expanded="true" signature="104:1038" ph="{...}" />
-                <marker date="1574178106269" expanded="true" signature="157:340" ph="{...}" />
-                <marker date="1574178106269" expanded="true" signature="403:1032" ph="{...}" />
-                <marker date="1574178106269" expanded="true" signature="722:922" ph="{...}" />
+                <marker date="1574194564532" expanded="false" signature="6:64" ph="..." />
+                <marker date="1574194564532" expanded="true" signature="89:1054" ph="{...}" />
+                <marker date="1574194564532" expanded="true" signature="118:1052" ph="{...}" />
+                <marker date="1574194564532" expanded="true" signature="171:354" ph="{...}" />
+                <marker date="1574194564532" expanded="true" signature="417:1046" ph="{...}" />
+                <marker date="1574194564532" expanded="true" signature="736:936" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/GanttChart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="150">
               <caret line="15" column="104" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="104" />
               <folding>
                 <marker date="1574187746106" expanded="false" signature="6:52" ph="..." />
@@ -105,28 +108,29 @@
             <state relative-caret-position="15">
               <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
-                <marker date="1574187034665" expanded="true" signature="14:10548" ph="{...}" />
-                <marker date="1574187034665" expanded="true" signature="48:10546" ph="{...}" />
-                <marker date="1574187034665" expanded="true" signature="63:149" ph="/// Обязательная переменная конструктора. ... " />
-                <marker date="1574187034665" expanded="true" signature="227:422" ph="/// Освободить все используемые ресурсы. ... " />
-                <marker date="1574187034665" expanded="true" signature="478:652" ph="{...}" />
-                <marker date="1574187034665" expanded="true" signature="539:605" ph="{...}" />
-                <marker date="1574187034665" expanded="false" signature="662:9829" ph="Код, автоматически созданный конструктором форм Windows" />
-                <marker date="1574187034665" expanded="true" signature="735:904" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
-                <marker date="1574187034665" expanded="true" signature="947:9809" ph="{...}" />
-                <marker date="1574187034665" expanded="true" signature="1822:1863" ph="/* label1 ... */" />
-                <marker date="1574187034665" expanded="true" signature="2253:2294" ph="/* label2 ... */" />
-                <marker date="1574187034665" expanded="true" signature="2688:2743" ph="/* tasksNumberTextField ... */" />
-                <marker date="1574187034665" expanded="true" signature="3429:3482" ph="/* empNumberTextField ... */" />
-                <marker date="1574187034665" expanded="true" signature="4058:4104" ph="/* leftNodeBox ... */" />
-                <marker date="1574187034665" expanded="true" signature="4573:4620" ph="/* rightNodeBox ... */" />
-                <marker date="1574187034665" expanded="true" signature="5096:5137" ph="/* label3 ... */" />
-                <marker date="1574187034665" expanded="true" signature="5512:5566" ph="/* addDependencyButton ... */" />
-                <marker date="1574187034665" expanded="true" signature="6262:6313" ph="/* dependenciesList ... */" />
-                <marker date="1574187034665" expanded="true" signature="6868:6925" ph="/* removeDependencyButton ... */" />
-                <marker date="1574187034665" expanded="true" signature="7655:7703" ph="/* computeButton ... */" />
-                <marker date="1574187034665" expanded="true" signature="8335:8376" ph="/* label4 ... */" />
-                <marker date="1574187034665" expanded="true" signature="8768:8816" ph="/* DataInputView ... */" />
+                <marker date="1574194564150" expanded="true" signature="14:11422" ph="{...}" />
+                <marker date="1574194564150" expanded="true" signature="48:11420" ph="{...}" />
+                <marker date="1574194564150" expanded="true" signature="63:149" ph="/// Обязательная переменная конструктора. ... " />
+                <marker date="1574194564150" expanded="true" signature="227:422" ph="/// Освободить все используемые ресурсы. ... " />
+                <marker date="1574194564150" expanded="true" signature="478:652" ph="{...}" />
+                <marker date="1574194564150" expanded="true" signature="539:605" ph="{...}" />
+                <marker date="1574194564150" expanded="false" signature="662:10642" ph="Код, автоматически созданный конструктором форм Windows" />
+                <marker date="1574194564150" expanded="true" signature="735:904" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
+                <marker date="1574194564150" expanded="true" signature="947:10622" ph="{...}" />
+                <marker date="1574194564150" expanded="true" signature="1892:1933" ph="/* label1 ... */" />
+                <marker date="1574194564150" expanded="true" signature="2323:2364" ph="/* label2 ... */" />
+                <marker date="1574194564150" expanded="true" signature="2758:2813" ph="/* tasksNumberTextField ... */" />
+                <marker date="1574194564150" expanded="true" signature="3499:3552" ph="/* empNumberTextField ... */" />
+                <marker date="1574194564150" expanded="true" signature="4128:4174" ph="/* leftNodeBox ... */" />
+                <marker date="1574194564150" expanded="true" signature="4643:4690" ph="/* rightNodeBox ... */" />
+                <marker date="1574194564150" expanded="true" signature="5166:5207" ph="/* label3 ... */" />
+                <marker date="1574194564150" expanded="true" signature="5582:5636" ph="/* addDependencyButton ... */" />
+                <marker date="1574194564150" expanded="true" signature="6332:6383" ph="/* dependenciesList ... */" />
+                <marker date="1574194564150" expanded="true" signature="6938:6995" ph="/* removeDependencyButton ... */" />
+                <marker date="1574194564150" expanded="true" signature="7725:7773" ph="/* computeButton ... */" />
+                <marker date="1574194564150" expanded="true" signature="8405:8446" ph="/* label4 ... */" />
+                <marker date="1574194564150" expanded="true" signature="8838:8888" ph="/* ClearListButton ... */" />
+                <marker date="1574194564150" expanded="true" signature="9542:9590" ph="/* DataInputView ... */" />
               </folding>
             </state>
           </provider>
@@ -151,20 +155,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/DependenceTreeCreator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="240">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <marker date="1574188284103" expanded="true" signature="6:66" ph="..." />
-                <marker date="1574188284103" expanded="true" signature="91:1823" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="139:1821" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="262:1318" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="303:425" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="476:634" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="741:1205" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="1368:1544" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="1428:1505" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="1617:1815" ph="{...}" />
-                <marker date="1574188284103" expanded="true" signature="1714:1779" ph="{...}" />
+                <marker date="1574193014327" expanded="false" signature="6:66" ph="..." />
+                <marker date="1574193014327" expanded="true" signature="91:2156" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="139:2154" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="262:1317" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="303:425" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="475:633" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="740:1204" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="1367:1543" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="1427:1504" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="1616:1814" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="1713:1778" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="1908:2148" ph="{...}" />
+                <marker date="1574193014327" expanded="true" signature="2026:2112" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -238,16 +244,10 @@
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -296,6 +296,7 @@
       <workItem from="1574187070837" duration="1510000" />
       <workItem from="1574189192697" duration="383000" />
       <workItem from="1574190010393" duration="48000" />
+      <workItem from="1574755075595" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="Added Exception classses">
       <created>1574188544389</created>
@@ -308,7 +309,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1941000" />
+    <option name="totallyTimeSpent" value="1985000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +322,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -461,110 +461,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/InvalidWorkersCountException.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1574187746353" expanded="true" signature="38:272" ph="{...}" />
-            <marker date="1574187746353" expanded="true" signature="98:270" ph="{...}" />
-            <marker date="1574187746353" expanded="true" signature="217:264" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/DataInputView.Designer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <marker date="1574187034665" expanded="true" signature="14:10548" ph="{...}" />
-            <marker date="1574187034665" expanded="true" signature="48:10546" ph="{...}" />
-            <marker date="1574187034665" expanded="true" signature="63:149" ph="/// Обязательная переменная конструктора. ... " />
-            <marker date="1574187034665" expanded="true" signature="227:422" ph="/// Освободить все используемые ресурсы. ... " />
-            <marker date="1574187034665" expanded="true" signature="478:652" ph="{...}" />
-            <marker date="1574187034665" expanded="true" signature="539:605" ph="{...}" />
-            <marker date="1574187034665" expanded="false" signature="662:9829" ph="Код, автоматически созданный конструктором форм Windows" />
-            <marker date="1574187034665" expanded="true" signature="735:904" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
-            <marker date="1574187034665" expanded="true" signature="947:9809" ph="{...}" />
-            <marker date="1574187034665" expanded="true" signature="1822:1863" ph="/* label1 ... */" />
-            <marker date="1574187034665" expanded="true" signature="2253:2294" ph="/* label2 ... */" />
-            <marker date="1574187034665" expanded="true" signature="2688:2743" ph="/* tasksNumberTextField ... */" />
-            <marker date="1574187034665" expanded="true" signature="3429:3482" ph="/* empNumberTextField ... */" />
-            <marker date="1574187034665" expanded="true" signature="4058:4104" ph="/* leftNodeBox ... */" />
-            <marker date="1574187034665" expanded="true" signature="4573:4620" ph="/* rightNodeBox ... */" />
-            <marker date="1574187034665" expanded="true" signature="5096:5137" ph="/* label3 ... */" />
-            <marker date="1574187034665" expanded="true" signature="5512:5566" ph="/* addDependencyButton ... */" />
-            <marker date="1574187034665" expanded="true" signature="6262:6313" ph="/* dependenciesList ... */" />
-            <marker date="1574187034665" expanded="true" signature="6868:6925" ph="/* removeDependencyButton ... */" />
-            <marker date="1574187034665" expanded="true" signature="7655:7703" ph="/* computeButton ... */" />
-            <marker date="1574187034665" expanded="true" signature="8335:8376" ph="/* label4 ... */" />
-            <marker date="1574187034665" expanded="true" signature="8768:8816" ph="/* DataInputView ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1574187034666" expanded="false" signature="6:124" ph="..." />
-            <marker date="1574187034666" expanded="true" signature="140:503" ph="{...}" />
-            <marker date="1574187034666" expanded="true" signature="167:501" ph="{...}" />
-            <marker date="1574187034666" expanded="true" signature="182:266" ph="/// Главная точка входа для приложения. ... " />
-            <marker date="1574187034666" expanded="true" signature="313:495" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/InvalidDependenciesCountException.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding>
-            <marker date="1574188359250" expanded="true" signature="38:406" ph="{...}" />
-            <marker date="1574188359250" expanded="true" signature="103:404" ph="{...}" />
-            <marker date="1574188359250" expanded="true" signature="294:398" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/InvalidJobCountException.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1574188284112" expanded="true" signature="38:264" ph="{...}" />
-            <marker date="1574188284112" expanded="true" signature="94:262" ph="{...}" />
-            <marker date="1574188284112" expanded="true" signature="209:256" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/DependenceTreeCreator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1574188284103" expanded="true" signature="6:66" ph="..." />
-            <marker date="1574188284103" expanded="true" signature="91:1823" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="139:1821" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="262:1318" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="303:425" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="476:634" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="741:1205" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="1368:1544" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="1428:1505" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="1617:1815" ph="{...}" />
-            <marker date="1574188284103" expanded="true" signature="1714:1779" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/GanttChart.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="150">
           <caret line="15" column="104" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="104" />
           <folding>
             <marker date="1574187746106" expanded="false" signature="6:52" ph="..." />
@@ -588,17 +487,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Model/InvalidWorkersCountException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1574187746353" expanded="true" signature="98:270" ph="{...}" />
+            <marker date="1574187746353" expanded="true" signature="217:264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/DataInputView.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1574187034666" expanded="false" signature="6:124" ph="..." />
+            <marker date="1574187034666" expanded="true" signature="140:503" ph="{...}" />
+            <marker date="1574187034666" expanded="true" signature="167:501" ph="{...}" />
+            <marker date="1574187034666" expanded="true" signature="182:266" ph="/// Главная точка входа для приложения. ... " />
+            <marker date="1574187034666" expanded="true" signature="313:495" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/DependenceTreeCreator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1574193014327" expanded="false" signature="6:66" ph="..." />
+            <marker date="1574193014327" expanded="true" signature="91:2156" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="139:2154" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="262:1317" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="303:425" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="475:633" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="740:1204" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="1367:1543" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="1427:1504" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="1616:1814" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="1713:1778" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="1908:2148" ph="{...}" />
+            <marker date="1574193014327" expanded="true" signature="2026:2112" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/InvalidDependenciesCountException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <marker date="1574188359250" expanded="true" signature="103:404" ph="{...}" />
+            <marker date="1574188359250" expanded="true" signature="294:398" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/InvalidJobCountException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1574188284112" expanded="true" signature="94:262" ph="{...}" />
+            <marker date="1574188284112" expanded="true" signature="209:256" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="150">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <marker date="1574178106269" expanded="false" signature="6:50" ph="..." />
-            <marker date="1574178106269" expanded="true" signature="75:1040" ph="{...}" />
-            <marker date="1574178106269" expanded="true" signature="104:1038" ph="{...}" />
-            <marker date="1574178106269" expanded="true" signature="157:340" ph="{...}" />
-            <marker date="1574178106269" expanded="true" signature="403:1032" ph="{...}" />
-            <marker date="1574178106269" expanded="true" signature="722:922" ph="{...}" />
+            <marker date="1574194564532" expanded="false" signature="6:64" ph="..." />
+            <marker date="1574194564532" expanded="true" signature="89:1054" ph="{...}" />
+            <marker date="1574194564532" expanded="true" signature="118:1052" ph="{...}" />
+            <marker date="1574194564532" expanded="true" signature="171:354" ph="{...}" />
+            <marker date="1574194564532" expanded="true" signature="417:1046" ph="{...}" />
+            <marker date="1574194564532" expanded="true" signature="736:936" ph="{...}" />
           </folding>
         </state>
       </provider>

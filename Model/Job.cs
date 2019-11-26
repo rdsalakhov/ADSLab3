@@ -32,5 +32,10 @@ namespace ScheduleTask2
         {
             return Name.ToString();
         }
+
+        public static void ResetJobNames()
+        {
+            jobNamer = 'A';
+        }
     }
 }

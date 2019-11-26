@@ -28,6 +28,9 @@
         <e p="DataInputView.cs" t="Include" />
         <e p="DataInputView.Designer.cs" t="Include" />
         <e p="DataInputView.resx" t="Include" />
+        <e p="GanttChartView.cs" t="Include" />
+        <e p="GanttChartView.Designer.cs" t="Include" />
+        <e p="GanttChartView.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
